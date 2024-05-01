@@ -5,29 +5,26 @@
 
 body{
     background-color: #EFF2F1;
+    margin: 0;
 }
 
 #container{
     background-color: #EFF2F1;
-    width: 70%;
-    margin: auto;
+    width: 100%;
 }
 
 header {
     background-color: #4059AD;
     color: #EFF2F1;
-    padding: 10px;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-h1{
-    font-size: 50px;
+    padding: 30px;
+    padding-left: 100px;
+    text-align: left;
+    margin: 0;
 }
 
 nav{
     background-color: #6B9AC4;
+    margin: 0;
 }
 
 ul{
@@ -46,10 +43,14 @@ li:hover{
 
 a{
     text-decoration: none;
-    color: #F4B942;
+    color: #252525;
     background-color: rgba(0, 0, 0, 0);
     padding-left: 30px;
     padding: 10px;
+}
+
+a:hover{
+    color: #F4B942;
 }
 
 .nav{
@@ -59,15 +60,18 @@ a{
 
 .clicado{
     background-color: #EFF2F1;
+    color: #F4B942;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 footer{
     text-align: center;
     background-color: #4059AD;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
     width: 100%;
     color: #EFF2F1;
+    position: absolute;
+    bottom: 0;
 }
 
 section{
@@ -81,12 +85,12 @@ section{
     text-align: center;
 }
 
-#descripcion{
+#descripcion, #curri{
     flex: 0 0 60%;
 }
 
-#imagen{
-    flex: 0 0 40%;
+#imagen, #descargar{
+    flex: 0 0 30%;
 }
 
 #imagen img{
@@ -95,4 +99,91 @@ section{
     border: 5px solid;
     border-radius: 10px;
     border-color: #F4B942;
+    margin: 15%;
+}
+
+#diego a, #info a, #curriculum a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #4059AD;
+    background: white;
+    padding: 10px 30px;
+    margin: left 30px;
+    border-radius: 30px;
+}
+
+h1{
+    color: #EFF2F1;
+    font-size: 120px;
+    font-weight: 1000;
+    margin: 0;
+}
+
+h2{
+    color: #EFF2F1;
+    font-size: 50px;
+    font-weight: 1000;
+    margin: 0;
+    margin-top: 15%;
+}
+
+#principal{
+    text-align: center;
+    background-image: url(../IMG/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#info{
+    margin-top: 10%;
+}
+
+#descripcion p{
+    margin-left: 20%;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#curriculum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#curriculum img{
+    width: 50%;
+}
+
+#contacto{
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    width: 60vw;
+    height: 60vh;
+    align-items: center;
+    margin: auto;
+    border: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: #F4B942;
+    background-color: transparent;
+    margin: 100px;
+}
+
+.form form {
+    width: 50vw;
+    margin: auto;
+}
+
+.form form input {
+    width: 80%;
+    height: 2em;
+    border-radius: 5px;
+    margin: 10px;
+    border-width: 1px;
 }

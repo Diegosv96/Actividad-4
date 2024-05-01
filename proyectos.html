@@ -3,65 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page Personal</title>
+  <title>Diego</title>
   <link rel="stylesheet" href="./CSS/styles.css">
+  <link rel="shortcut icon" href="./IMG/smile.png" type="image/x-icon">
 </head>
 
 <body>
 
   <div id="container">
   <header>
-    <h1>Diego Sarasa Valdés</h1>
+    <div id="diego">
+      <a href="index.html">
+        Diego
+      </a>
+    </div>
   </header>
   <nav>
     <ul>
-      <li><a href="index.html" class="nav">Quién soy</a></li>
+      <li><a href="quien_soy.html" class="nav">Quién soy</a></li>
       <li><a href="curriculum.html" class="nav">Currículum</a></li>
-      <li class="clicado"><a href="proyectos.html" class="nav">Proyectos</a></li>
+      <li class="clicado"><a href="proyectos.html" class="clicado">Proyectos</a></li>
       <li><a href="contacto.html" class="nav">Contacto</a></li>
     </ul>
   </nav>
 
-  <section class="texto">
-    <p>¡Hola! Soy Juan Pérez, un entusiasta estudiante de informática apasionado por el desarrollo web. Actualmente estoy cursando mis estudios en la Universidad XYZ, donde estoy aprendiendo sobre diversos lenguajes de programación y sistemas de gestión.</p>
+  <section>
+    <ol>
+      <li>
+        <h3>Sistema de Gestión de Inventarios</h3>
+        <p><strong>Descripción:</strong> Desarrollé un sistema de gestión de inventarios para una empresa de logística que
+          optimizó el seguimiento de productos y mejoró la eficiencia operativa. Utilicé tecnologías como Python, Django y
+          PostgreSQL para crear una plataforma intuitiva y escalable.</p>
+        <p><strong>Responsabilidades:</strong> Lideré el equipo de desarrollo, diseñé la arquitectura del sistema,
+          implementé funcionalidades clave y supervisé la integración con sistemas existentes.</p>
+        <p><strong>Resultados:</strong> Reduje los errores de inventario en un 30% y aumenté la productividad del equipo
+          en un 20%.</p>
+      </li>
+      <li>
+        <h3>Plataforma E-Commerce</h3>
+        <p><strong>Descripción:</strong> Colaboré en el desarrollo de una plataforma de comercio electrónico para una
+          startup emergente. Utilizamos tecnologías como JavaScript, React y Node.js para crear una experiencia de usuario
+          fluida y segura.</p>
+        <p><strong>Responsabilidades:</strong> Desarrollé características front-end y back-end, optimicé el rendimiento
+          del sitio web y colaboré con diseñadores para garantizar una interfaz de usuario atractiva.</p>
+        <p><strong>Resultados:</strong> Aumenté las conversiones en un 25% y reduje el tiempo de carga del sitio en un
+          40%.</p>
+      </li>
+      <li>
+        <h3>Aplicación de Gestión de Proyectos</h3>
+        <p><strong>Descripción:</strong> Creé una aplicación de gestión de proyectos personalizada para una agencia de
+          marketing. Utilicé tecnologías como Ruby on Rails, HTML y CSS para desarrollar una herramienta intuitiva y fácil
+          de usar.</p>
+        <p><strong>Responsabilidades:</strong> Diseñé y desarrollé la aplicación desde cero, integré funcionalidades de
+          colaboración en tiempo real y proporcioné soporte técnico continuo.</p>
+        <p><strong>Resultados:</strong> Mejoré la coordinación del equipo en un 50% y reduje los tiempos de entrega de
+          proyectos en un 20%.</p>
+      </li>
+    </ol>
   </section>
 
-  <section>
-    <h2>CV</h2>
-    <!-- <img src="cv_example.png" alt="CV" class="cv-img"> -->
-  </section>
-  <section>
-    <h2>Proyectos</h2>
-    <div>
-      <h3>Sistema de Gestión de Biblioteca</h3>
-      <!-- <img src="biblioteca_project.png" alt="Biblioteca" class="project-img"> -->
-      <p>Desarrollé un sistema web para la gestión de una biblioteca local, utilizando PHP y MySQL para la base de datos.</p>
-    </div>
-    <div>
-      <h3>Página Web de una Tienda Online</h3>
-      <!-- <img src="tienda_online_project.png" alt="Tienda Online" class="project-img"> -->
-      <p>Colaboré en el diseño y desarrollo de una tienda online de ropa, utilizando HTML, CSS y JavaScript para la interfaz de usuario.</p>
-    </div>
-    <div>
-      <h3>Aplicación de Gestión de Tareas</h3>
-      <!-- <img src="gestion_tareas_project.png" alt="Gestión de Tareas" class="project-img"> -->
-      <p>Creé una aplicación para la gestión de tareas personales, utilizando React.js para el frontend y Node.js para el backend.</p>
-    </div>
-  </section>
-  <section>
-    <h2>Contacto</h2>
-    <form action="/contacto" method="post">
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required><br>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required><br>
-      <label for="mensaje">Mensaje:</label><br>
-      <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br>
-      <input type="submit" value="Enviar">
-    </form>
-  </section>
   <footer>
-    <p>¡Gracias por visitar mi página!</p>
+    ¡Gracias por visitar mi página!
   </footer>
   </div>
 </body>
