@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Personal</title>
+  <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+
+<body>
+
+  <div id="container">
+  <header>
+    <h1>Diego Sarasa Valdés</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="nav">Quién soy</a></li>
+      <li class="clicado"><a href="curriculum.html" class="nav">Currículum</a></li>
+      <li><a href="proyectos.html" class="nav">Proyectos</a></li>
+      <li><a href="contacto.html" class="nav">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section class="texto">
+    <p>¡Hola! Soy Juan Pérez, un entusiasta estudiante de informática apasionado por el desarrollo web. Actualmente estoy cursando mis estudios en la Universidad XYZ, donde estoy aprendiendo sobre diversos lenguajes de programación y sistemas de gestión.</p>
+  </section>
+
+  <section>
+    <h2>CV</h2>
+    <!-- <img src="cv_example.png" alt="CV" class="cv-img"> -->
+  </section>
+  <section>
+    <h2>Proyectos</h2>
+    <div>
+      <h3>Sistema de Gestión de Biblioteca</h3>
+      <!-- <img src="biblioteca_project.png" alt="Biblioteca" class="project-img"> -->
+      <p>Desarrollé un sistema web para la gestión de una biblioteca local, utilizando PHP y MySQL para la base de datos.</p>
+    </div>
+    <div>
+      <h3>Página Web de una Tienda Online</h3>
+      <!-- <img src="tienda_online_project.png" alt="Tienda Online" class="project-img"> -->
+      <p>Colaboré en el diseño y desarrollo de una tienda online de ropa, utilizando HTML, CSS y JavaScript para la interfaz de usuario.</p>
+    </div>
+    <div>
+      <h3>Aplicación de Gestión de Tareas</h3>
+      <!-- <img src="gestion_tareas_project.png" alt="Gestión de Tareas" class="project-img"> -->
+      <p>Creé una aplicación para la gestión de tareas personales, utilizando React.js para el frontend y Node.js para el backend.</p>
+    </div>
+  </section>
+  <section>
+    <h2>Contacto</h2>
+    <form action="/contacto" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+  <footer>
+    <p>¡Gracias por visitar mi página!</p>
+  </footer>
+  </div>
+</body>
+</html>
